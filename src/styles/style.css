@@ -1,32 +1,39 @@
 body{
     background-color:#EBEBD3;
+    margin: 50px;
 }
 @font-face{
     font-family:SpicyRice;
     src: url(/src/assets/fonts/SpicyRice-Regular.ttf);
 }
+@font-face{
+    font-family: IndieFlower;
+    src: url(/src/assets/fonts/IndieFlower-Regular.ttf)
+}
+.redesSociales{
+    width: 10%;
+    background-color: black;
+}
 .encabezado{
-    width: 20%;
+    width: 80%;
     height: 100px;
     margin: 50px auto;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: burlywood;
-    justify-content: center;
-    border-radius: .5em;
-    font-family:SpicyRicex;
+    justify-content: space-around;
+    flex-direction: row;
 }
-.encabezado p{
+.Titulo{
     font-size: 1.8em;
+    font-family:SpicyRice;
 }
 .contenedor{
     display: flex;
-    width: 90%;
+    width: 100%;
     height: 700px;
     margin: 50 px auto;
     background-color: darkmagenta;
     border-radius: .8em;
+    flex-direction: column;
 }
 .opciones{
     display: flex;
@@ -38,19 +45,50 @@ body{
     border-radius: .8em;
 }
 .boton{
-    width: 200px;
-    height: 75px;
+    width: 250px;
+    height: 50px;
     cursor: pointer;
-    background-color: yellow;
+    background-color:#DEF4C6;
     border-radius: .5em;
     transition: background-color .5s;
     margin: 50 px auto;
-    align-items: center;
+    justify-content: center;
 }
 .boton:hover{
-    background-color: blue;
+    background-color:#E54B4B;
 }
 .boton p{
     text-align: center;
     font-size: 1.5em
+}
+.seccion1{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    justify-content: space-around;
+}
+.imagen{
+    width: 30%;
+    height: 400px;
+    margin: 50px;
+    background-color: black;
+}
+.informacion{
+    width: 60%;
+    height: 400px;
+    margin: 50px;
+    font-family:IndianFlower;
+}
+.informacion p{
+    font-family:IndieFlower;
+    font-size: 2em;
+}
+.PiedePagina{
+    display: flex;
+    width: 100%;
+    background-color: #E0FBFC;
+    height: 150px;
+    justify-content: space-around;
+    align-items: center;
 }
