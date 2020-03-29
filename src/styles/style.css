@@ -90,6 +90,8 @@ body{
     background-color: white;
     justify-content: center;
     align-items: center;
+    font-family:IndieFlower;
+    font-size: 1.4em;
 }
 .imagen{
     width: 30%;
@@ -118,4 +120,8 @@ body{
     height: 150px;
     justify-content: space-around;
     align-items: center;
+}
+.c{
+    font-family:IndieFlower;
+    font-size: 2em;
 }
