@@ -7,7 +7,7 @@ body{
     src: url(/src/assets/fonts/SpicyRice-Regular.ttf);
 }
 @font-face{
-    font-family: IndieFlower;
+    font-family:IndieFlower;
     src: url(/src/assets/fonts/IndieFlower-Regular.ttf)
 }
 .redesSociales{
@@ -31,9 +31,17 @@ body{
     width: 100%;
     height: 700px;
     margin: 50 px auto;
-    background-color: darkmagenta;
     border-radius: .8em;
     flex-direction: column;
+}
+.contenedor2{
+    display: flex;
+    width: 100%;
+    height: 1600px;
+    margin: 50 px auto;
+    border-radius: .8em;
+    flex-direction: column;
+
 }
 .opciones{
     display: flex;
@@ -68,21 +76,31 @@ body{
     background-color: white;
     justify-content: space-around;
 }
+.seccion2{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-color: white;
+}
 .imagen{
     width: 30%;
     height: 400px;
     margin: 50px;
-    background-color: black;
 }
 .informacion{
     width: 60%;
     height: 400px;
     margin: 50px;
-    font-family:IndianFlower;
+    font-family:IndieFlower;
 }
+
 .informacion p{
     font-family:IndieFlower;
     font-size: 2em;
+}
+.basica{
+    display: flex;
+    flex-direction: row;
 }
 .PiedePagina{
     display: flex;
